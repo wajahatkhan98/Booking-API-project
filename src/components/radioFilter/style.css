@@ -1,0 +1,11 @@
+.radio-label{
+    margin-right: 20px;
+}
+.radio-label input{
+    transform: scale(1.6);
+    margin-right: 20px;
+    cursor: pointer;
+}
+.radio-label label{
+    cursor: pointer;
+}

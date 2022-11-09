@@ -1,0 +1,8 @@
+.flight-container{
+    max-width: 800px;
+    width: 70%;
+    
+}
+.flight-list{
+  border: 1px solid #ccc !important;
+}

@@ -1,0 +1,22 @@
+/* *{
+        background-color: #f5f5f5;
+    border-bottom: 1px solid #e6e6e6;
+    left: 50%;
+    margin-left: -50vw;
+    padding-bottom: 48px;
+    padding-top: 24px;
+    position: relative;
+    width: 100vw;
+} */
+
+.car-container{
+   
+     background-color: #f5f5f5;
+    border-bottom: 1px solid #e6e6e6;
+    left: 50%;
+    margin-left: -50vw;
+    padding-bottom: 48px;
+    padding-top: 24px;
+    position: relative;
+    width: 100vw;
+}

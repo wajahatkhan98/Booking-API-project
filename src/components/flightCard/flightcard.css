@@ -1,0 +1,161 @@
+.cardMain {
+  border-radius: 5px;
+  padding: 0 10px;
+  border-bottom: 1px solid #ccc !important;
+  display: flex;
+  justify-content: left;
+}
+
+.best {
+  color: #1979c9;
+  background-color: #e6eefc;
+  margin: 0 8px 4px 0;
+  padding: 3px 8px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  border-radius: 4px;
+  font-family: "TT Hoves Variable", -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-weight: 600;
+  line-height: 18px;
+  font-size: 12px;
+  max-width: 100px;
+}
+.cheap {
+  color: #13663b;
+  background-color: #dcfaeb;
+  margin: 0 8px 4px 0;
+  padding: 3px 8px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  border-radius: 4px;
+  font-family: "TT Hoves Variable", -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-weight: 600;
+  line-height: 18px;
+  font-size: 12px;
+  max-width: 100px;
+}
+.left-body span {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 1;
+  margin-left: 7px;
+}
+.left-body {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  justify-content: center;
+  /* justify-self: left; */
+  align-items: center;
+}
+.left-body img {
+  margin-top: 10px;
+  height: 40px;
+  width: 40px;
+}
+.left-body span {
+  /* width: 40px; */
+  font-size: 13px;
+  letter-spacing: 0;
+  color: #4a5963;
+  text-align: center;
+}
+.cardMain .mid {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: auto 5% auto 5% !important;
+  flex: 1;
+}
+.starttime,
+.endtime {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.starttime span,
+.endtime span {
+  font-size: 15;
+  font-weight: bold;
+}
+.line-dur {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  text-align: center;
+  width: 70px;
+  border-top: 2px solid #ccc;
+  margin: 10px 20px 0 20px;
+  padding-top: 10px;
+}
+.cardMain .right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 20px;
+}
+.cardMain .right span {
+  font-size: 13px;
+  font-family: "HelveticaNeue-Medium", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+  font-weight: 500;
+  letter-spacing: 0;
+}
+.cardMain .last {
+  width: 175px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  border-left: 1px solid #ccc;
+}
+.left,
+.mid,
+.right,
+.last {
+  padding: 10px 0px;
+}
+.last {
+  padding: 10px 15px;
+}
+.last .price {
+  font-family: "TT Hoves Variable", -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-weight: 600;
+  line-height: 24px;
+  font-size: 24px;
+}
+.last .person-no {
+  display: inline-block;
+  font-family: "TT Hoves Variable", -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-weight: 600;
+  line-height: 18px;
+  font-size: 12px;
+}
+.last button {
+  -webkit-appearance: none;
+  display: flex;
+  padding: 0;
+  height: 34px;
+  border-radius: 4px;
+  color: white;
+  font-weight: 600;
+  border: none;
+  outline: none;
+  margin-top: auto;
+  background-color: #558fe6;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  cursor: pointer;
+}
+.price ,.person-no{
+  text-align: right;
+}

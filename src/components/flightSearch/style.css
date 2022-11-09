@@ -1,0 +1,110 @@
+.search-main{
+    border: 3px solid #febb02;
+    position: absolute;
+    top:180px;
+    height: 60px;
+    flex:1;
+    width: 100%;
+    background-color: white;
+    display: flex;
+
+}
+.header-flight{
+    position: relative;
+}
+.search-children{
+    height: 100%;
+}
+.search-children:nth-child(2){
+    border-right: 3px solid #febb02;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* padding: auto 10px; */
+    width: 60px;
+}
+.from-div input,.to-div input{
+    border:none;
+    outline:none;
+    padding-right: 5px;
+}
+
+.from-div,.to-div,.from-div input,.to-div input{
+    height:100%;
+    font-size: 16px;
+    position: relative;
+}
+.icon-plane{
+    z-index: 1;
+     color: var(--primary);
+     padding: 6px 10px 0px 10px;
+     font-size: 20px;
+}
+.icon-arrow-rotate{
+    font-size: 25px;
+    color: var(--primary);
+    cursor: pointer;
+    transition: all .4s;
+    transform: rotate(0deg);
+
+}
+
+.icon-arrow-rotate:active{
+    transform: rotate(360deg);
+}
+.calender-div{
+    width: 275px;
+    display: flex;
+    height:100%;
+    align-items: center;
+    border-right: 3px solid #febb02;
+    padding-right: 5px;
+}
+.search-children:last-child{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 70px;
+}
+.search-children:nth-child(1),.search-children:nth-child(3){
+    flex:1;
+    border-right: 3px solid #febb02;
+}
+.icon-search{
+    color: var(--primary);
+    font-size: 35px;
+    cursor: pointer;
+}
+.flight-list{
+    border: 1px solid gray;
+    border-radius: 4px;
+}
+.cities-list1 {
+    border: 1px solid gray;
+    border-top-width: 0px ;
+    position: absolute;
+    top: 58px;
+    left: 0px;
+    width: 100%;
+    z-index: 10;
+    background-color: white;
+    list-style-type: none;
+    /* max-height: 400px;
+    overflow-y: scroll; */
+  }
+  .cities-item1 {
+    color: gray;
+    list-style-type: none;
+    padding: 7px 20px;
+    border-bottom: 1px solid gray;
+    cursor: pointer;
+  }
+  .cities-item1:hover {
+    /* background-color: #dfdede; */
+    cursor: pointer;
+    /* color: white; */
+  }
+  .none{
+    display: none;
+  }

@@ -1,0 +1,19 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+html {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif,
+    BlinkMacSystemFont, -apple-system, "Segoe UI", Roboto, Helvetica, Arial,
+    sans-serif;
+}
+:root {
+  --primary: #800080;
+}
+body {
+  font-family: sans-serif;
+}
+body,
+html {
+  overflow-x: hidden;
+}
